@@ -49,7 +49,7 @@ fn main() {
         limit_count += 10_000;
     }
 
-    let mut file_count = 1;
+    let mut file_count = 0;
     let mut filenames = Vec::<String>::new();
     while file_count <= 10 {
         let temp_string = format!("data{}", file_count);
