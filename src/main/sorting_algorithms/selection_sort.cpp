@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#inlcude <utility>
+#include <utility>
 void selection_sort(vector<int> &array){
     int n = array.size();
     int min_idx;
